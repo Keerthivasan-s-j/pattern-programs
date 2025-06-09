@@ -18,8 +18,7 @@ package zoho;
 
 import java.util.*;
 
-class Main {
-    
+class p1 {
     public static void pattern(int n, String str) {
         int ind = 0;
         for (int i = 0; i<n; i++) {
@@ -34,7 +33,6 @@ class Main {
             System.out.println();
         }
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
