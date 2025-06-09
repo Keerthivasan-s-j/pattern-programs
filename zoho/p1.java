@@ -48,5 +48,6 @@ class p1 {
                 pattern(n, str);
             }
         }
+        sc.close();
     }
 }
