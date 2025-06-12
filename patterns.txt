@@ -1,0 +1,121 @@
+Advanced Pattern Programs – Zoho Interview Preparation
+======================================================
+
+1. Butterfly Pattern
+--------------------
+Input: n = 5
+
+Output:
+*       *
+**     **
+***   ***
+**** ****
+*********
+**** ****
+***   ***
+**     **
+*       *
+
+2. Hollow Diamond
+-----------------
+Input: n = 5
+
+Output:
+    *    
+   * *
+  *   *
+ *     *
+*       *
+ *     *
+  *   *
+   * *
+    *
+
+3. Numeric Palindrome Pyramid
+-----------------------------
+Input: n = 5
+
+Output:
+    1
+   121
+  12321
+ 1234321
+123454321
+
+4. Concentric Rectangles
+------------------------
+Input: n = 4
+
+Output:
+4444444
+4333334
+4322234
+4321234
+4322234
+4333334
+4444444
+
+5. Zig-Zag Star Pattern
+-----------------------
+Input: n = 3 (rows), m = 9 (columns)
+
+Output:
+    *   *   *
+  *   *   *   *
+*   *   *   *   *
+
+Condition hint: if (i + j) % 4 == 0 || (i == 2 && j % 4 == 0)
+
+6. Heart Pattern
+----------------
+Input: Fixed size (n = 6 for even look)
+
+Output:
+ **   **
+**** ****
+*********
+ ********
+  ******
+   ****
+    **
+     *
+
+7. Number Spiral Matrix
+-----------------------
+Input: n = 4
+
+Output:
+ 1  2  3  4
+12 13 14  5
+11 16 15  6
+10  9  8  7
+
+8. Hollow Number Pyramid
+------------------------
+Input: n = 5
+
+Output:
+        1
+      1   1
+    1       1
+  1           1
+1 2 3 4 5 6 7 8 9
+
+9. XOR/Checkerboard Matrix Pattern
+----------------------------------
+Input: n = 3
+
+Output:
+1 0 1
+0 1 0
+1 0 1
+
+10. Spiral Character Matrix
+---------------------------
+Input: n = 4
+
+Output:
+A B C D
+L M N E
+K P O F
+J I H G
